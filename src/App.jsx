@@ -1,7 +1,7 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import AppLayout from "./Pages/AppLayout/AppLayout"
-import LineCharts from './pages/line-charts/LineChart'
 import BarCharts from './Pages/bar-charts/BarChart'
+import LineCharts from './Pages/line-charts/LineChart'
 import { Navigate } from "react-router-dom"
 
 function App() {
