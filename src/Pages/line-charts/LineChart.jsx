@@ -1,5 +1,6 @@
-import SalesChart from "../../Line-charts/linechart1"
+import SalesChart from "../../chart-lines/linechart1"
 // import { salesData } from "../../../public/data"
+// import { salesData } from "../../data"
 import styles from './LineChart.module.css'
 export const salesData = [
     { month: "January", sales: 351 },
@@ -15,6 +16,10 @@ export const salesData = [
     { month: "November", sales: 146 },
     { month: "December", sales: 190 },
   ];
+  
+
+  
+
 function LineCharts(){
     return(
         <div className={styles.container}>

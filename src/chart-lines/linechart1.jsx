@@ -1,4 +1,5 @@
 const MARGIN = {left : 30,top : 50,right : 30,bottom : 50}
+// import { salesData } from "../../public/data";
 import { line, max, scaleBand, scaleLinear,curveBasis,curveLinear, area, scalePoint } from "d3"
 import { useEffect, useRef, useState } from "react"
 import { motion } from "framer-motion";
@@ -8,6 +9,7 @@ const CURVE_FUNCTIONS = {
     basis: curveBasis,
     
   };
+  
 function SalesChart({data,
                     className,
                     curveType = 'linear',

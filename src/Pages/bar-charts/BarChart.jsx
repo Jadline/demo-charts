@@ -1,11 +1,12 @@
 // import BarChart from "../../Bar-charts/bar-chart"
-import { salesData,stackedData } from "../../../public/data"
-import HorizontalBarChart from "../../Bar-charts/bar-chart"
+// import { salesData,stackedData } from "../../../public/data"
+import { salesData,stackedData } from "../../data"
+import HorizontalBarChart from "../../chart-bars/bar-chart"
 
 import styles from './BarChart.module.css'
-import StackedBarChart from "../../Bar-charts/stackedbar"
-import GroupedBarChart from "../../Bar-charts/groupedbar"
-import VerticalBarChart from "../../Bar-charts/verticalbar"
+import StackedBarChart from "../../chart-bars/stackedbar"
+import GroupedBarChart from "../../chart-bars/groupedbar"
+import VerticalBarChart from "../../chart-bars/verticalbar"
 function BarCharts(){
     return (
         <div className={styles.container}>
